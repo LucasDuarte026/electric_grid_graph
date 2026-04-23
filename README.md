@@ -14,6 +14,38 @@ With the network modeled as a structured graph using the `NetworkX` library, thr
 
 For validation and experimental study purposes, the project also features an interactive interface directly in the Notebook, allowing the user to choose the buses and algorithms, generating the calculation of execution time, path cost, and visual representation within the generated electrical topology itself.
 
+## 🗺️ Topologies
+
+<table>
+  <tr>
+    <td align="center"><img src="images/topology_14.png" width="400"/><br><b>IEEE 14-Bus Topology</b></td>
+    <td align="center"><img src="images/topology_300.png" width="400"/><br><b>IEEE 300-Bus Topology</b></td>
+  </tr>
+</table>
+
+## 🔍 Search Algorithms Comparison
+
+Here is a comparison of the paths found by each algorithm from Node 1 to Node 14 on the IEEE 14-Bus system:
+
+<table>
+  <tr>
+    <td align="center"><img src="images/DFS_1to14.png" width="250"/><br><b>DFS (Depth-First Search)</b></td>
+    <td align="center"><img src="images/BFS_1to14.png" width="250"/><br><b>BFS (Breadth-First Search)</b></td>
+    <td align="center"><img src="images/astar_1to14.png" width="250"/><br><b>A* (Informed Search)</b></td>
+  </tr>
+</table>
+
+## 🕹️ Interactive Search
+
+The project features an interactive interface within the Jupyter Notebook, allowing users to test all paths interactively on both systems.
+
+<table>
+  <tr>
+    <td align="center"><img src="images/inetrative_search_14.png" width="400"/><br><b>Interactive Interface (14-Bus)</b></td>
+    <td align="center"><img src="images/interative_search_300.png" width="400"/><br><b>Interactive Interface (300-Bus)</b></td>
+  </tr>
+</table>
+
 ## 👨‍🎓 Students
 
 * Lucas Duarte - Lider
